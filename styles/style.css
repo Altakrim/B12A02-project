@@ -1,0 +1,30 @@
+@import "tailwindcss"
+
+;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    justify-content: space-between;
+    max-width: 1140px;
+    height: 70px;
+    margin: auto;
+    padding: 0 20px;
+    margin-top: 30px;
+
+
+}
+ .logo {
+    width: 100px;
+    height: 82px;
+   
+    
+}
+.navbar-list, ul, li a {
+    display: flex;
+    justify-content: space-between;
+    align-content: row;
+    gap: 20px;
+}
