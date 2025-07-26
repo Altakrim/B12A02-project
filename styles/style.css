@@ -143,3 +143,44 @@ body {
 .join button {
     padding: 10px 20px;
 }
+/* Footer section styles */
+.footer {
+    border: 2px solid rgb(135, 241, 13);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    gap: 10px;
+
+
+}
+.footer-logo {
+    width: 350px;
+    height: 170px;
+}
+.link-1 {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+    
+
+}
+.link-2 {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+
+}
+.footer-link-bar{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 36px;
+    gap: 10px;
+
+
+}
