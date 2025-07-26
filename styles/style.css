@@ -6,6 +6,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+
+}
+  /* Navbar Styles */
+
 .navbar {
     justify-content: space-between;
     max-width: 1140px;
@@ -27,4 +32,102 @@
     justify-content: space-between;
     align-content: row;
     gap: 20px;
+}
+@media screen and (max-width: 480px) {
+    .navbar-list a:not(.cart-icon) {
+        display: none;
+    }
+}
+/* Banner styles */
+ .banner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1140px;
+    height: 400px;
+    margin-top: 30px;
+
+   
+    border: 2px solid #f888;
+ }
+.banner-content{
+   flex: 1;
+
+}
+.banner-title {
+    font-size: 32px
+}
+.banner-image {
+    flex: 1;
+}
+.banner-image img {
+    width: 100%;
+
+}
+@media (max-width:768px) {
+    .banner {
+        flex-direction: column;
+    }
+    .banner-content {
+        text-align: left;
+    }
+} 
+/* Plants section styles */
+.plants {
+    max-width: 1140px;
+}
+.plant-container {
+    text-align: center;
+    margin-top: 30px;
+}
+.plants-cart {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.cart img {
+  
+}
+ @media (max-width:768px) {
+    .plants-cart {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+ }
+ /* Flower & Plants Lover section styles */
+ .plants-lover{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+ }
+ .trusted-img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    animation: spin 2s linear infinite;
+ } 
+ @keyframes spin {
+    100% {
+        transform:rotate(360eg);
+    }
+ }      
+@media (max-width:768) {
+    .plants-lover {
+        flex-direction: column;
+    }
+    .trusted-img {
+        display: none;
+    }
+
+}
+
+.image-left {
+
+}
+.contant-righ {
+
 }
