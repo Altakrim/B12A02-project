@@ -100,8 +100,6 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-
-
  }
  .trusted-img {
     position: absolute;
@@ -130,4 +128,18 @@ body {
 }
 .contant-righ {
 
+}
+/* Join Section */
+.join {
+    background-image: url('/assets/news-letter-bg.png');
+    padding: 60px 20px; 
+    text-align: center;
+}
+.join input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+.join button {
+    padding: 10px 20px;
 }
